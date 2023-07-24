@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.shell.service.KeyVaultAccessUsingManagedIdentity;
 
 @RestController
-@RequestMapping(value = "/transaction", produces = { MediaType.APPLICATION_JSON_VALUE })
+@RequestMapping(value = "/connect", produces = { MediaType.APPLICATION_JSON_VALUE })
 public class AppServiceManagedIdentityController {
 
 	@Autowired
